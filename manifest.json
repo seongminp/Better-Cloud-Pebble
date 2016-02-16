@@ -1,0 +1,22 @@
+// manifest.json
+
+{
+    "manifest_version": 2,
+
+    "name":"Better CloudPebble", 
+    "description": "Keep your menues when going full screen in Cloud Pebble Ide.",
+    "version": "0.1",
+
+    "page_action": {
+        "default_icon": "icon.png",
+        "default_popup": "popup.html"
+    },
+
+    "permissions": [
+        "https://cloudpebble.net/",
+        "http://cloudpebble.net/",
+    ],
+
+
+
+}
