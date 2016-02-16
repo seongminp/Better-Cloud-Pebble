@@ -13,14 +13,14 @@
     },
 
         "permissions": [
-        "https://cloudpebble.net/",
-        "http://cloudpebble.net/"
+        "https://cloudpebble.net/ide/project",
+        "http://cloudpebble.net/ide/project"
     ],
 
 
     "content_scripts": [
         {   
-            "matches":["https://cloudpebble.net/*","http://cloudpebble.net/*"],
+            "matches":["https://cloudpebble.net/ide/project/*","http://cloudpebble.net/ide/project/*"],
             "css":["css/content.css"],
             "js": ["scripts/content.js"]
         }
